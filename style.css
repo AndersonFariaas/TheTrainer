@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  /*Cabeçalho*/
+  
+  .cabecalho{
+    background: #ffd700;
+    height: 100px;
+  }
+  
+  /*Imagem do cabeçalho*/
+  
+  .menu-img{
+    float: left;
+  }
+  .menu-img img{
+    width: 100%;
+  }
+  
+  /*Título do cabeçalho*/
+  
+  .menu-titulo h1{
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
+    text-shadow: 2px 1px 1px white;
+  }
+  .menu-titulo{
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 10px;
+    letter-spacing: 3px;
+  }
+  
+  /*Menu de navegação*/
+  
+  .menu-nav{
+    float: right;
+    margin-top: 33px;
+  }
+  .menu-nav ul{
+    margin-right: 20px;
+  }
+  .menu-nav ul li{
+    display: inline-block;
+    margin: 4px 20px 0px 10px;
+    text-transform: uppercase;
+  }
+  .menu-nav li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px beige;
+  }
+  .menu-nav li a:hover{
+    font-size: 16px;
+  }
+  @media (max-width:793px){
+    .menu-nav ul li{
+      display: block;
+    }
+  }
+  
+  /*Conteúdo principal*/
+  
+  main{
+    background-image: url(Imagens/treinador.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin-top: -25px;
+    filter: drop-shadow(2rem 2rem 1rem black);
+    margin-left: -30px;
+  }
+  
+  /*Rodapé da pagina*/
+  
+  .rodape{
+    width: 100%;
+    height: 530px;
+    background: black;
+  }
+  
+  /*Conteúdo do rodapé*/
+  
+  .rodape-box{
+    width: 100%;
+    height: 190px;
+    background: black;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .rodape-box h2, p{
+    font-family: sans-serif;
+    color: white;
+    padding: 5px;
+  }
+  
+  /*Botão rodapé*/
+  
+  .rodape-box button{
+    width: 150px;
+    height: 40px;
+    background: #ffd700;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  .rodape-box button:hover{
+    box-shadow: 0px 0px 30px yellow;
+  }
+  
+  /*Listas de conteúdo*/
+  
+  .box{
+    display: flex;
+    justify-content: center;
+  }
+  .company{
+    width: 200px;
+    height: 100px;
+  }
+  .company h3, ul li{
+    list-style: none;
+    padding: 6px 0px;
+    font-family: sans-serif;
+    color: white;
+  }
+  .courses{
+    width: 200px;
+    height: 100px;
+  }
+  .courses h3, ul li{
+    list-style: none;
+    padding: 6px 0px;
+    font-family: sans-serif;
+    color: white;
+  }
+  .contact{
+    width: 200px;
+    height: 100px;
+  }
+  .contact h3, ul li{
+    list-style: none;
+    padding: 7px 0px;
+    font-family: sans-serif;
+    color: white;
+  }
+  .contact li img{
+    width:30px;
+  }
+  .copy{
+    width: 265px;
+    font-size: 10px;
+    margin-top: 200px;
+    margin-left: -30px;
+  }
+  
